@@ -4,60 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <style>
-        h1{
-            text-align: center; 
-            color: rgb(102, 0, 255);   
-        }
-        h3{
-            text-align: center;
-            color: rgb(255, 0 , 0);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>PORTFOLIO</h1>
-    <h3>BIO</h3>
-    <P>NAME : A SADHWIK</P>
-    <P>AGE : 20</P>
-    <P>PH NO : 8328144785</P>
-    <P>EMAIL : sadhwiknani02@gmail.com</P>
-    <h3>EDUCATION</h3>
-    <table border="1px" cellspacing="0">
-        <tr>
-            <th>B.Tech</th>
-            <th>Bvrit</th>
-            <th>CSE</th>
-            <th>77%</th>
-        </tr>
-        <tr>
-            <th>Intermediate</th>
-            <th>Narayana</th>
-            <th>MPC</th>
-            <th>98%</th>
-        </tr>
-        <tr>
-            <th>Schooling</th>
-            <th>TTS</th>
-            <th>IIT</th>
-            <th>97%</th>
-        </tr>
-    </table>
-    <h3>SKILLS</h3>
-    <ul>
-        <li>Html</li>
-        <li>Css</li>
-        <li>Python(Beginner)</li>
-        <li>Java(Intermediate)</li>
-    </ul>
-    <h3>SOCIAL PLATFORMS</h3>
-    <a href="www.linkedin.com/in/sadhwik-nani-1b1498281">linkedin</a>
-    <br>
-    <a href="https://github.com/Sadhwik02">Github</a>
-    <h3>PROJECTS</h3>
-    <ul>
-        <li>Load Balancing and Resource Utilization in Cloud Computing</li>
-        <li>6 months Inrernship at GPTFU</li>
-    </ul>
+    <div class="header">
+        <div class="header-left">
+        <img src="http://placehold.it/">
+        <h1>Sadhwik</h1>
+        </div>
+        <div class="navlinks">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Education</a>
+            <a href="#">Certifications</a>
+        </div>
+    </div>
+    <div class="content">
+    <div class="about">
+        <div class="about-left">
+        <h2>About Me</h2>
+        <p></p>
+        </div>
+        <div class="about-right">
+            <img src="http://placehold.it/">
+        </div>        
+    </div>
+    <section class="projects-section">
+        <div class="projects-container">
+            <h2>Projects</h2>
+            <div class="projects-items">
+                <div class="project-item">
+                    <h3>Project Name</h3>
+                    <div class="technologies">Technologies Used</div>
+                    <div class="date">Completion Date</div>
+                    <p>Brief description of the project and your role in it.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Project Name</h3>
+                    <div class="technologies">Technologies Used</div>
+                    <div class="date">Completion Date</div>
+                    <p>Brief description of the project and your role in it.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section class="experience-section">
+        <div class="experience-container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Software Engineer Intern</h3>
+                <div class="company">One Convergence</div>
+                <div class="date">Mar 2023 - Aug 2023</div>
+                <p>We have developed a website called "GPTFU" </p>
+                <ul>
+                    <li>Key achievement or responsibility</li>
+                    <li>Another key achievement or responsibility</li>
+                    <li>One more key achievement or responsibility</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    </div>
+    <section class="education-section">
+        <div class="education-container">
+            <h2>Education</h2>
+            <div class="education-items">
+                <div class="education-item">
+                    <h3>Schooling</h3>
+                    <div class="institution">Triveni Talent Schools</div>
+                    <div class="date">2019</div>
+                    <p>Brief description or notable achievements</p>
+                </div>
+                <div class="education-item">
+                    <h3>Intermediate</h3>
+                    <div class="institution">Narayana Junior College</div>
+                    <div class="date">2021</div>
+                    <p>MPC</p>
+                </div>
+                <div class="education-item">
+                    <h3>B.Tech</h3>
+                    <div class="institution">B V Raju Institute of Technology</div>
+                    <div class="date">2025</div>
+                    <p>Computer Science and Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="coding-platforms">
+        <div class="container">
+            <h2>Coding Profiles</h2>
+            <div class="platform-list">
+                <div class="platform-item">
+                    <div class="platform-icon">
+                        <img src="path/to/leetcode-icon.svg" alt="LeetCode">
+                    </div>
+                    <div class="platform-info">
+                        <h3>LeetCode</h3>
+                        <p>Rank: Top 5%</p>
+                        <p>Problems Solved: 300+</p>
+                    </div>
+                    <a href="#" class="platform-link" target="_blank">View Profile</a>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-icon">
+                        <img src="path/to/hackerrank-icon.svg" alt="HackerRank">
+                    </div>
+                    <div class="platform-info">
+                        <h3>HackerRank</h3>
+                        <p>5 Star Coder</p>
+                        <p>Badges: 15</p>
+                    </div>
+                    <a href="#" class="platform-link" target="_blank">View Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="certifications-section">
+        <div class="certifications-container">
+            <h2>Certifications</h2>
+            <div class="certification-grid">
+                <div class="certification-card">
+                    <img src="path/to/certification-image.jpg" alt="Certification Name" class="certification-image">
+                    <div class="certification-details">
+                        <h3>Certification Name</h3>
+                        <p class="issuer">Issuing Organization</p>
+                        <p class="date">Issue Date</p>
+                        <a href="#" class="view-credential">View Credential</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
 </body>
 </html>
